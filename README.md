@@ -1,0 +1,3 @@
+# Python Integer Division Bug
+
+This repository demonstrates a subtle bug related to integer division in Python. When performing division with integers, Python automatically converts the result to a float, even if the numbers would result in an integer division, leading to unexpected float values in the output. The bug is not immediately obvious and can cause problems if integer values are expected. The solution is given in bugSolution.py, explaining how to avoid such behavior. 
